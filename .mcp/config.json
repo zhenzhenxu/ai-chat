@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@modelcontextprotocol/server-github",
+        "--repositories",
+        "zhenzhenxu/ai-chat"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    }
+  }
+}

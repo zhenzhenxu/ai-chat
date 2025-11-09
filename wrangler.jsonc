@@ -1,5 +1,5 @@
 {
-    "name": "worker-name",
+    "name": "ai-chat-proj",
     "compatibility_date": "2025-11-09",
     "assets": {
       "directory": "./dist"
